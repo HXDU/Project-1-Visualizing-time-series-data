@@ -28,4 +28,4 @@ The csv file is simply a collection of preprocessing results.
    When talking about disaster tweets, we might wonder, what are people talking and what is the main topic wiring on different social medias. This project provides an instance view of such an answer.   
      First, despite of different categorizes, the number of wildfire tweets over time shows surprising consistence between one and each other.   
    Second, unsurprsingly, the number of wildfire related tweets hits the highest for the first few days and keeps decreasing after that. Although it is a state disaster that is commonly seen almost every year, 2018 California year caught national attentions due to its duration and the casualties it caused. Thus, the number of tweets marked within state of California stays close to those that are otherwise. 
-   
+   ![image](https://github.com/HXDU/Project-1-Visualizing-time-series-data/blob/master/Project1.png)

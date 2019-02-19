@@ -335,6 +335,7 @@ d3.csv("CAtweets.csv", function(error, data) {
 
   svg2.append("text").text("CA Wildfire Tweets")
       .style("font-size", "13px")
+      .style("cursor","pointer")
       .attr("transform", "translate(" + 2*legendGap + ",3)")
       .on("click", function(d){
         currentOpa = d3.select(".wildfire").style("opacity");
@@ -350,6 +351,7 @@ d3.csv("CAtweets.csv", function(error, data) {
 
   svg2.append("text").text("Those Located in CA")
       .style("font-size", "13px")
+      .style("cursor","pointer")
       .attr("transform", "translate(" + 9*legendGap + ",3)")
       .on("click", function(d){
         currentOpa = d3.select(".CAbased").style("opacity");
@@ -365,6 +367,7 @@ d3.csv("CAtweets.csv", function(error, data) {
 
   svg2.append("text").text("Other than CA")
       .style("font-size", "13px")
+      .style("cursor","pointer")
       .attr("transform", "translate(" + 17*legendGap + ",3)")
       .on("click", function(d){
         currentOpa = d3.select(".otherLoc").style("opacity");
@@ -380,6 +383,7 @@ d3.csv("CAtweets.csv", function(error, data) {
 
   svg2.append("text").text("Those are Rescue-related")
       .style("font-size", "13px")
+      .style("cursor","pointer")
       .attr("transform", "translate(" + 9*legendGap + ",23)")
       .on("click", function(d){
           currentOpa = d3.select(".res").style("opacity");

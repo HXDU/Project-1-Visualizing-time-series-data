@@ -1,8 +1,8 @@
 # Project-1-Visualizing-time-series-data
 CS 5331 - 001 
 
-
-Link: https://hxdu.github.io/Project-1-Visualizing-time-series-data/  
+Video demo link: https://youtu.be/aWy7VEUYBQI
+Html link: https://hxdu.github.io/Project-1-Visualizing-time-series-data/  
 
 ## Introduction
   This project provides an interactive visualization of time series data: 2018 California wildfire tweets (Nov 08 – Nov 30) in 3 different aspects: 

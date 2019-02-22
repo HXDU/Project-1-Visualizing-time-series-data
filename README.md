@@ -1,7 +1,7 @@
 # Project-1-Visualizing-time-series-data
 CS 5331 - 001 
 
-Video demo link: https://youtu.be/aWy7VEUYBQI
+Video demo link: https://youtu.be/aWy7VEUYBQI  
 Html link: https://hxdu.github.io/Project-1-Visualizing-time-series-data/  
 
 ## Introduction

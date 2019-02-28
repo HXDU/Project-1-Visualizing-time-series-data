@@ -378,7 +378,7 @@ d3.csv("CAtweets.csv", function(error, data) {
   svg2.append("rect")
       .attr("height",5)
       .attr("width", legendGap)
-      .attr("fill","#4B999F")
+      .attr("fill","blue")
       .attr("transform","translate("+ 8*legendGap + ",20)");
 
   svg2.append("text").text("Those are Rescue-related")
@@ -395,7 +395,7 @@ d3.csv("CAtweets.csv", function(error, data) {
   svg2.append("path")
         .data([data])
         .attr("class","line res")
-        .style("stroke","#4B999F")
+        .style("stroke","blue")
         .style("opacity",0)
         .attr("d", valueline_graph2_res)
         .on("mouseover",drawToolTip)
